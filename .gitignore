@@ -1,0 +1,26 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local tooling and working notes
+.local/
+AGENTS.md
+.agents/
+.codex/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
